@@ -1,5 +1,5 @@
-def add_three_integers(a, b, c):
-    """Return the sum of three integers."""
-    return a + b + c
+def add_numbers(numbers):
+    """Return the sum of a list of numbers."""
+    return sum(numbers)
 
 print("Hello")
