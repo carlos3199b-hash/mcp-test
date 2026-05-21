@@ -24,10 +24,10 @@ from fastmcp import FastMCP
 # ---------------------------------------------------------------------------
 # Default connection settings – change these to match your environment
 # ---------------------------------------------------------------------------
-DEFAULT_SERVER   = r"CSNP00095972.us.ups.com\RR1SHRD01"  # e.g. "MYSERVER" or "MYSERVER\\SQLEXPRESS"
-DEFAULT_DATABASE = "D279RMS0" # e.g. "master"
+DEFAULT_SERVER   = r"hostname"  # e.g. "MYSERVER" or "MYSERVER\\SQLEXPRESS"
+DEFAULT_DATABASE = "master" # e.g. "master"
 # VmWare LogInsight API defaults
-LOGINSIGHT_URL = "https://lmpwwcpeapp3.ups.com:9543"
+LOGINSIGHT_URL = "https://hostname:9543"
 LOGINSIGHT_USERNAME = "apa_alert"
 LOGINSIGHT_PASSWORD = os.getenv("LOGINSIGHT_PASSWORD", "")  # Set this in your environment for security
 SQLCMD_PATH      = "sqlcmd"             # full path if not on PATH, e.g. r"C:\Program Files\...\sqlcmd.exe"
