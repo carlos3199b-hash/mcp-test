@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "retail-server": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["C:\\Users\\app1cxb\\OneDrive - ups\\Desktop\\IDM\\RMS-APA\\code\\Testing\\mcp\\retail_mcp.py"],
+      "env": {
+        "LOGINSIGHT_PASSWORD": "<ENV_VAR>"
+      }
+    }
+  }
+}
